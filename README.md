@@ -14,8 +14,12 @@ __Задача min:__
 
 ### Как запустить
 
+Для успешного запуска и выполнения проекта нужно, чтобы были установлены библиотеки __pandas__ и __numpy__:
+
+    pip3 install numpy
+	pip3 install pandas
+
 Открыть файл Districts_of_Moscow.ipynb в jupyter-notebook или ввести в терминале:
 
     python3 Districts_of_Moscow.py 
 
-Для успешного запуска и выполнения проекта нужно, чтобы были установлены библиотеки __pandas__ и __numpy__
