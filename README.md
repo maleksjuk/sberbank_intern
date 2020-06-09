@@ -23,4 +23,4 @@ __Задача min:__
     pip3 install numpy
     pip3 install pandas
     
-Чтобы просмотреть отчёт (без скачивания), нужно открыть файл Districts_of_Moscow.ipynb на GitHub
+Чтобы просмотреть отчёт (без скачивания), нужно открыть файл Districts_of_Moscow.ipynb или Distinct_of_Moscow.html 
