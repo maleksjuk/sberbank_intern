@@ -1,9 +1,10 @@
-import json
+# coding=utf-8
+
 import geojson
 import shapely.geometry as shg
 import requests
 
-print("Загрузка данных: ", end='')
+print("Загрузка данных: ")
 with open('mo.geojson') as f:
     data_gj_mo = geojson.load(f)
 print("OK")
@@ -44,6 +45,6 @@ while finish:
     address = input("\nВведите адрес (например, Охотный ряд 1): ")
     if len(address) > 0:
         print(get_district(get_coord(address)))
-    check = input("\nПродолжить? (да/[нет]): ")
-    if check != 'да':
+    check = input("\nПродолжить? (yes, да / [no, нет]): ")
+    if check != 'yes' and check != 'да':
         finish = False
